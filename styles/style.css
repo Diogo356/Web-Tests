@@ -1,0 +1,39 @@
+html{ /*usando o elemento HTML eu defino que tudo dentro da pagina vai ter as seguintes configurações*/
+    font-size: 10px; /*aqui aeu defino o tamanho da fonte em pixels*/
+    font-family: sans-serif; /*aqui eu defino a familia de fontes padrão da minha pagina */
+    background-color: #00539f;
+}
+
+body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 5px black;
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+p,
+li { 
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+
+a:hover {
+    color: red;
+}
